@@ -74,9 +74,9 @@ $(window).load(function() {
   background-color: rgba(0,0,0,0.6);
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transform: translateX(-100px);
-  -ms-transform: translateX(-100px);
-  transform: translateX(-100px);
+  -webkit-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  transform: translateX(-50px);
   -webkit-transition: all 0.2s 0.4s ease-in-out;
   transition: all 0.2s 0.4s ease-in-out;
 }
@@ -143,7 +143,8 @@ $(window).load(function() {
 @media (max-width: 771px){
 	.hovereffect .overlay {
   width: 100%;
-  height: 200px;
+  height: 25vh;
+  min-height:155px;
   }
   .hovereffect a.info {
 		 margin: 50px 0 0 0;
@@ -160,6 +161,12 @@ $(window).load(function() {
 		 }
 		 .block.news{ background-position: center;background-size:contain;}
 		 .block.news:hover{ background-position: center;background-size:contain;}
+		 .block.livetv{ background-position: center;background-size:contain;}
+		 .block.livetv:hover{ background-position: center;background-size:contain;}
+		 .block.management{ background-position: center;background-size:contain;}
+		 .block.management:hover{ background-position: center;background-size:contain;}
+		 .block.production{ background-position: center;background-size:contain;}
+		 .block.production:hover{ background-position: center;background-size:contain;}
 	.overlay p{
 		padding-top:5px;
 	}
@@ -193,23 +200,48 @@ $(window).load(function() {
          <!--   <div class="col-md-6 col-xs-12 height-half animated fadeInUp"><div class="block height-full news "><a href="collections.php" class="info animated fadeInDown"><h3>Leaders<br>Today</h3><span></span></a></div></div>
 			-->
 		<div class="col-md-6 col-xs-12 height-half  animated fadeInUp">
-    <div class="hovereffect block news height-full" >
+			<div class="hovereffect block news height-full" >  
+				<div class="overlay">
+					<h2>LeadersToday</h2>
+					<P style="color:white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+					<a class="info" href="#">Know More</a>
+				</div>
+			</div>
+		</div>	
+		<div class="col-md-6 col-xs-12 height-half  animated fadeInUp">
+			<div class="hovereffect block livetv height-full" >  
+				<div class="overlay">
+					<h2>LeadersToday</h2>
+					<P style="color:white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+					<a class="info" href="#">Know More</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 col-xs-12 height-half  animated fadeInUp">
+			<div class="hovereffect block management height-full" >  
+				<div class="overlay">
+					<h2>LeadersToday</h2>
+					<P style="color:white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+					<a class="info" href="#">Know More</a>
+				</div>
+			</div>
+		</div>	
+		<div class="col-md-6 col-xs-12 height-half  animated fadeInUp">
+			<div class="hovereffect block management height-full" >  
+				<div class="overlay">
+					<h2>LeadersToday</h2>
+					<P style="color:white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+					<a class="info" href="#">Know More</a>
+				</div>
+			</div>
+		</div>	
+			
+			
+          <!--  <div class="col-md-6 col-xs-12 height-half animated fadeInDown"><div class="block height-full livetv"><a href="collections.php" class="info animated fadeInDown"><h3>Live<br>TV</h3><span></span></a></div></div>	
+            <div class="col-md-6 col-xs-12 height-half animated fadeInUp"><div class="block height-full management"><a href="collections.php" class="info animated fadeInDown"><h3>Ucs<br>Talent</h3><span></span></a></div></div>  
+			<div class="col-md-6 col-xs-12 height-half animated fadeInDown"><div class="block height-full production"><a href="collections.php" class="info animated fadeInDown"><h3>Ucs<br>Production</h3><span></span></a></div></div> -->   
         
-        <div class="overlay">
-            <h2>LeadersToday</h2>
-			<P style="color:white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <a class="info" href="#">Know More</a>
-        </div>
-    </div>
-</div>	
-			
-			
-			
-			
-            <div class="col-md-6 col-xs-12 height-half animated fadeInDown"><div class="block height-full livetv"><a href="collections.php" class="info animated fadeInDown"><h3>Live<br>TV</h3><span></span></a></div></div>
-            <div class="col-md-6 col-xs-12 height-half animated fadeInUp"><div class="block height-full management"><a href="collections.php" class="info animated fadeInDown"><h3>Ucs<br>Talent</h3><span></span></a></div></div>      
-			<div class="col-md-6 col-xs-12 height-half animated fadeInDown"><div class="block height-full production"><a href="collections.php" class="info animated fadeInDown"><h3>Ucs<br>Production</h3><span></span></a></div></div>
-        </div>
+		</div>
     </div> 
 <!-- banner & block -->
 </div>

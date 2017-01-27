@@ -19,11 +19,14 @@ a{color: #333;}
 .banner .caption p{margin-bottom: 30px;font:normal 25px/30px 'Old Standard TT', serif;color: #eee;}
 .banner .caption a.btn{margin: 0 5px;}
 .block.news{ background-image:url(news.gif);background-color:#EE7663;background-size:cover; }
-.block.livetv{ background-image:url(live-tv.jpg);background-color:#EE7663 ; }
-.block.production{ background-image:url(production.jpg); background-color:#EE7663 ;}
-.block.management{ background-image:url(management.jpg); background-color:#EE7663 ;}
+.block.livetv{ background-image:url(news.gif);background-color:#EE7663;background-size:cover; }
+.block.production{ background-image:url(news.gif);background-color:#EE7663;background-size:cover; }
+.block.management{ background-image:url(news.gif);background-color:#EE7663;background-size:cover; }
 .block{background-size:114%; display: table-cell;vertical-align: middle;text-align: center;position: relative;background-position: center;font: normal 16px 'Old Standard TT';-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out; background-repeat: no-repeat;}
 .block.news:hover{background-image:url(news.png);width:100%; background-position: center;background-size:cover;}
+.block.livetv:hover{background-image:url(news.png);width:100%; background-position: center;background-size:cover;}
+.block.management:hover{background-image:url(news.png);width:100%; background-position: center;background-size:cover;}
+.block.production:hover{background-image:url(news.png);width:100%; background-position: center;background-size:cover;}
 /*.block .info{background:rgba(146,199,4,0.9);border-radius: 50%;height: 175px;width: 175px;color: #fff;display: none;text-align: center;}
 .block .info h3{ margin:50px 0 5px 0;}
 .block:hover .info{display: inline-block;}
@@ -49,15 +52,15 @@ a{color: #333;}
 
 	
 }
-@media (max-width: 671px){
+@media (max-width: 244px){
 	h2{font-size: 20px; line-height: 20px;}
 	h2.title{font-size: 30px;line-height: 53px;margin-bottom: 20px;}
 	.banner .caption h2{margin-bottom: 15px;}
 	.banner .caption a.btn{width: 100%; margin-top: 10px;}
 	.banner .caption p{font: normal 15px/15px 'Old Standard TT', serif;}
 	.fullpage {height: auto !important;padding-bottom: 0 ; float: left;}
-	.block .overlay{position: relative;}
-	.block .info{margin: 20px;}
+	/*.block .overlay{position: relative;}*/
+	.block .info{margin: 110px;}
 	.block .overlay {padding: 25px;}
 	.height-full{float: left;width: 100%;}
 	.homepage .height-half{height: 200px}1
